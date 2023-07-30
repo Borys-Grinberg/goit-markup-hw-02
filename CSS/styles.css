@@ -1,0 +1,132 @@
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+:root {
+    --logo-blue: #4D5AE5;
+}
+
+:root {
+    --background-color: white;
+}
+
+:root {
+    --text-color: #2E2F42;
+}
+
+:root {
+    --hover-color: #404BBF;
+}
+
+:root {
+    --button-background: #F4F4FD;
+}
+/*========= header ===========*/
+
+
+.logo-text {
+    color: var(--text-color);
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        }
+
+
+.logo-font-blue {
+        color: var(--logo-blue);
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height:1.5;
+        /* 150% */
+        letter-spacing: 0.32px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+
+}
+
+.menu-item-link {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.menu-item-link:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+.menu-item-link:focus {
+    color: var(--hover-color);
+  text-decoration: underline;
+}
+        
+
+.contacts-list-item {
+color: var(--text-color);
+font-style: normal;
+}
+.contacts-list-item:hover {
+    color: var(--hover-color);
+}
+
+.contacts-list-item:focus {
+    color: var(--hover-color);
+}
+/*========= /header ===========*/
+
+
+/*====== body =======*/
+.nav-button {
+    color: var(--logo-blue);
+    background: var(--button-background);
+        text-align: center;
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.64px;
+}
+
+.nav-button:hover {
+    color:var(--background-color);
+    background-color:var(--hover-color);
+    
+}
+
+.project-cards-h3text {
+    font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.4px;
+}
+
+/*====== /body =======*/
+
+
+
+/*========= footer ==========*/
+
+/*========= /footer ==========*/
