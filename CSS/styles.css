@@ -12,28 +12,17 @@ button {
 }
 
 :root {
+    --body-color: #434455;
     --logo-blue: #4D5AE5;
-}
-
-:root {
     --background-color: white;
-}
-
-:root {
     --text-color: #2E2F42;
-}
-
-:root {
     --hover-color: #404BBF;
-}
-
-:root {
     --button-background: #F4F4FD;
 }
 /*========= header ===========*/
 
 
-.logo-text {
+.logotype {
     color: var(--text-color);
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
@@ -53,9 +42,8 @@ button {
 
 body {
     font-family: 'Roboto', sans-serif;
-       
-    color: #434455;
-    background-color: var(--background-color, #ffffff);
+    color:var(--body-color);
+    background-color: var(--background-color,);
 
 }
 
@@ -89,6 +77,40 @@ font-style: normal;
 /*========= /header ===========*/
 
 
+
+/*===index====*/
+.hero {
+    background-color: var(--text-color);
+}
+
+.h3-headers {
+    color: var(--text-color);
+        font-family: 'Roboto',
+            sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+}
+
+.hero-heading {
+    color: var(--background-color);
+        text-align: center;
+        /* Header 1 */
+        font-family: 'Roboto',
+            sans-serif;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.07
+        ;
+        /* 107.143% */
+        letter-spacing: 1.12px;
+}
+
+
 /*====== body =======*/
 .nav-button {
     color: var(--logo-blue);
@@ -101,7 +123,7 @@ font-style: normal;
         font-weight: 500;
         line-height: 24px;
         /* 150% */
-        letter-spacing: 0.64px;
+        letter-spacing: 0.02em;
 }
 
 .nav-button:hover {
