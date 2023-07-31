@@ -84,14 +84,14 @@ font-style: normal;
     background-color: var(--text-color);
 }
 
-.h3-headers {
+.h-three-headers {
     color: var(--text-color);
         font-family: 'Roboto',
             sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.2;
         /* 120% */
         letter-spacing: 0.4px;
 }
@@ -122,24 +122,26 @@ font-style: normal;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
 }
 
+
+
 .nav-button:hover {
-    color:var(--background-color);
-    background-color:var(--hover-color);
-    
+    color: var(--background-color);
+    background-color: var(--hover-color);
+
 }
 
-.project-cards-h3text {
-    font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        /* 120% */
-        letter-spacing: 0.4px;
+.nav-button:focus {
+    color: var(--background-color);
+    background-color: var(--hover-color);
+
 }
+
+
 
 /*====== /body =======*/
 
