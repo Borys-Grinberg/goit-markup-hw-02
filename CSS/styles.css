@@ -1,3 +1,11 @@
+:root {
+    --body-color: #434455;
+    --logo-blue: #4D5AE5;
+    --background-color: white;
+    --text-color: #2E2F42;
+    --hover-color: #404BBF;
+    --button-background: #F4F4FD;
+}
 
 .list {
     list-style-type: none;
@@ -11,14 +19,7 @@ button {
     cursor: pointer;
 }
 
-:root {
---body-color: #434455;
---logo-blue: #4D5AE5;
---background-color: white;
---text-color: #2E2F42;
---hover-color: #404BBF;
---button-background: #F4F4FD;
-}
+
 /*========= header ===========*/
 
 
@@ -41,7 +42,7 @@ button {
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color:var(--body-color);
     background-color: var(--background-color,);
 
