@@ -15,7 +15,7 @@ body {
 }
 
 .list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .link {
@@ -135,17 +135,14 @@ font-style: normal;
 
 
 
-.nav-button:hover {
-    color: var(--background-color);
-    background-color: var(--hover-color);
-
-}
-
+.nav-button:hover,
 .nav-button:focus {
     color: var(--background-color);
     background-color: var(--hover-color);
 
 }
+
+
 
 
 
