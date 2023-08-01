@@ -37,7 +37,6 @@ button {
         font-style: normal;
         font-weight: 800;
         line-height: 1.17;
-        /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
         }
@@ -106,22 +105,17 @@ font-style: normal;
         font-style: normal;
         font-weight: 500;
         line-height: 1.2;
-        /* 120% */
         letter-spacing: 0.4px;
 }
 
 .hero-heading {
     color: var(--background-color);
         text-align: center;
-        /* Header 1 */
-        font-family: 'Roboto',
-            sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
-        line-height: 1.07
-        ;
-        /* 107.143% */
+        line-height: 1.07;        ;
         letter-spacing: 1.12px;
 }
 
@@ -131,13 +125,11 @@ font-style: normal;
     color: var(--logo-blue);
     background: var(--button-background);
         text-align: center;
-        /* Button Text */
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.02em;
 }
 
