@@ -31,20 +31,20 @@ button {
 
 
 .logotype {
-    color: var(--text-color);
+    color: var(--logo-blue);
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
         line-height: 1.17;
         /* 116.667% */
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         }
 
 
-.logotype-blue {
-        color: var(--logo-blue);
+.logotype-black {
+        color: var(--text-color);
 }
 
 
