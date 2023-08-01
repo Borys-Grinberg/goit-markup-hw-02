@@ -53,16 +53,19 @@ button {
 .menu-item-link {
     color: var(--text-color);
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+
 }
 
-.menu-item-link:hover {
+.menu-item-link:hover, .menu-item-link:focus {
     color: var(--hover-color);
     text-decoration: underline;
 }
 
-.menu-item-link:focus {
-    color: var(--hover-color);
-  text-decoration: underline;
+.header-contacts {
+    font-style: normal;
 }
         
 
