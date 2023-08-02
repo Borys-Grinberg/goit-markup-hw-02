@@ -162,6 +162,21 @@ font-style: normal;
     background-color: var(--button-background);
 }
 
+.list-item-section-four {
+    background-color: var(--background-color);
+}
+
+
+.logotype-white {
+    color: var(--button-background);
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: var(--button-background);
+    letter-spacing: 0.02em;
+}
+
 
 
 
