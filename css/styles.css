@@ -50,7 +50,7 @@ button {
 
 
 .menu-item-link {
-    color: (--body-color);
+    color: (--text-color);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -78,7 +78,7 @@ button {
         
 
 .contacts-list-item {
-color: var(--text-color);
+color: var(--body-color);
 font-style: normal;
 }
 .contacts-list-item:hover {
@@ -120,7 +120,6 @@ font-style: normal;
 }
 
 
-/*====== body =======*/
 .nav-button {
     color: var(--background-color);
     background: var(--logo-blue);
@@ -143,10 +142,34 @@ font-style: normal;
 }
 
 
+.p-of-second-section {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.second-heading {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color var(--text-color);
+
+}
+
+.section-team {
+    background-color: var(--button-background);
+}
 
 
 
-/*====== /body =======*/
+
+
+
+
+
+
 
 
 
