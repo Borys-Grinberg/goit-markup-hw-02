@@ -50,7 +50,7 @@ button {
 
 
 .menu-item-link {
-    color: var(--text-color);
+    color: (--body-color);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -122,15 +122,15 @@ font-style: normal;
 
 /*====== body =======*/
 .nav-button {
-    color: var(--logo-blue);
-    background: var(--button-background);
+    color: var(--background-color);
+    background: var(--logo-blue);
         text-align: center;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.04em;
 }
 
 
