@@ -191,13 +191,29 @@ font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--body-color);
-    
+
 }
 
 
 
+.portfolio-button {
+    color: var(--logo-blue);
+    background-color: var(--button-background);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
 
 
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--background-color);
+    background-color: var(--hover-color);
 
 
 
